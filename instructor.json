@@ -1,0 +1,44 @@
+[
+    {
+        "profile":"https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg",
+        "name":"Nrupul Dev",
+        "position":"Co-Founder & CTO",
+        "ex-company":"https://masai-website-images.s3.ap-south-1.amazonaws.com/ex_da_557255e025.jpeg"
+    },
+    {
+        "profile":"https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg",
+        "name":"Yogesh Bhat",
+        "position":"Co- Founder & SVP - Holistic Development",
+        "ex-company":"https://masai-website-images.s3.ap-south-1.amazonaws.com/ex_mercuri_129d690457.svg"
+    },
+    {
+        "profile":"https://masai-website-images.s3.ap-south-1.amazonaws.com/aman_fbbc8625a4.jpg",
+        "name":"Aman Vats",
+        "position":"Director - Curriculum",
+        "ex-company":"https://masai-website-images.s3.ap-south-1.amazonaws.com/ex_exl_ab21e9bfe0.png"
+    },
+    {
+        "profile":"https://masai-website-images.s3.ap-south-1.amazonaws.com/Albert_28b73517f6.jpg",
+        "name":"Albert Sebastian",
+        "position":"Director - Curriculum",
+        "ex-company":"https://masai-website-images.s3.ap-south-1.amazonaws.com/ex_realized_5d3fee2677.jpeg"
+    },
+    {
+        "profile":"https://masai-website-images.s3.ap-south-1.amazonaws.com/lohit_dp_98abd5839c.jpeg",
+        "name":"Lohit Marodia",
+        "position":"Director - Curriculum",
+        "ex-company":"https://masai-website-images.s3.ap-south-1.amazonaws.com/ex_microsoft_80272817c6.png"
+    },
+    {
+        "profile":"https://masai-website-images.s3.ap-south-1.amazonaws.com/Ritesh_Firodiya_4_8a667ac9c8.jpg",
+        "name":"Ritesh Firodiya",
+        "position":"Senior Curriculum Engineer",
+        "ex-company":"https://masai-website-images.s3.ap-south-1.amazonaws.com/ex_swiggy_9ca86a3f78.svg"
+    },
+    {
+        "profile":"https://masai-website-images.s3.ap-south-1.amazonaws.com/swanand_d399feddf5.jpeg",
+        "name":"Swanand Kadam",
+        "position":"Senior Curriculum Engineer",
+        "ex-company":"https://masai-website-images.s3.ap-south-1.amazonaws.com/kalaam_f2ea778a36.png"
+    }
+]
