@@ -164,3 +164,132 @@ background-color: rgb(255,250,251);
 .comapniesDiv-two > img {
   border-radius: 20px;
 }
+.placement-mainDIv{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.placement-mainDiv-first{
+  margin-top: -30px;
+}
+.firstDiv-one{
+  background-color: rgb(52,112,228);
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+  color: rgb(225,225,225);
+  justify-content: center;
+}
+.firstDiv-one > p {
+  color: rgb(225,225,225);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+.subFirstDiv-one{
+  margin-top: 10px;
+
+}
+.subFirstDiv-one > p > span > img {
+  height: 50px;
+  left: -30px;
+}
+.subFirstDiv-one > p > span{
+  color: rgb(255,219,102);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.subFirstDiv-one > p{
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 5px;
+  
+}
+.placementRate{
+  height: 16px;
+  left: -10px;
+
+}
+.firstDiv-two{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+
+.subFirstDiv-two{
+  background-color: rgb(111,189,205);
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  width: 40%;
+  height: 250px;
+}
+.placementSvg{
+  width: 70px;
+  height: 70px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.placement-salary{
+  font-size: 34px;
+  font-weight: 600;
+  margin-top: 16px;
+  line-height: 40px;
+  color: rgb(255,255,255);
+}
+.subFirstDIv-two-two{
+  background-color: rgb(111, 205, 158);
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  width: 40%;
+  height: 250px;
+}
+.placementSvghigh{
+  width: 70px;
+  height: 70px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.placementSvghigh > svg {
+  height: 70px;
+}
+
+.placement-mainDiv-second{
+  background-color: rgb(110,113,204);
+  border-radius: 20px;
+}
+.secondDiv-one > img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.secondDiv-two > h2 {
+  font-weight: bold;
+  color: rgb(255,255,255);
+  font-size: 34px;
+}
+.secondDiv-two > button {
+  background-color: rgb(110,113,204);
+  color: rgb(255,255,255);
+  border: 1px solid white;
+  font-size: large;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+}
+.skill{
+  margin-top: 100px;
+}
+.skill > h2 {
+  font-size: 45px;
+  font-weight: bolder;
+}
+.skill > p {
+  font-size: large;
+  margin-top: -10px;
+  font-weight: 500;
+}
