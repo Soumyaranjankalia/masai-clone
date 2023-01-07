@@ -359,7 +359,7 @@ border-radius: 20px;
 
 .story-DivOne{
   margin-top: 90px;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: bolder;
 }
 
@@ -377,4 +377,116 @@ border-radius: 20px;
   text-align: left;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.pref{
+  margin-top: 50px;
+  text-align: center;
+  background-color: rgb(255,249,229);
+  justify-content: center;
+}
+.pref > button {
+  background-color:  rgb(255,249,229);
+  color: red;
+  border: 1px solid red;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.pref > img {
+  margin-top: 20px;
+}
+
+.pref > p {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: large;
+}
+
+.prefTwoP{
+  color: rgb(110,113,204);
+}
+
+.prefThreeP{
+  margin-bottom: 10px;
+}
+
+.footer{
+  margin-top: 80px;
+  background-color: black;
+  
+}
+.discord{
+  color: white;
+  display: flex;
+  text-align: center;
+  margin-left: 30%;
+}
+#logo{
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoDiv-two > p {
+  color: rgb(255, 255, 255);
+  
+}
+.logoDiv-two{
+  margin-right: -900px;
+}
+.logoDiv-three{
+display: flex;
+width: 250px;
+justify-content: space-around;
+margin-top: 15px;
+}
+.footerDIv-one>button{
+  width: 200px;
+  font-weight: 600;
+  font-size: 14px;
+  color:rgb(21,101,246);
+  background-color: transparent;
+  border: none;
+}
+.links{
+  display: flex;
+  color: white;
+  margin-left: 108px;
+  gap: 162px;
+}
+
+.footerDIv-one{
+  display: flex;
+  background-color: rgb(38,36,36);
+  cursor: pointer;
+  align-items: center;
+  margin-left: 50px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.footerDiv-last{
+  display: flex;
+  width: 400px;
+  height: 150px;
+  gap: 20px;
+}
+.footerDiv-pOne{
+  font-size:1.5rem;
+  font-weight: bolder;
+}
+.footerDiv-pTwo{
+  color: rgb(255,219,102);
+  font-weight: bold;
+  margin-top: -10px;
+}
+.btn{
+  background-color: red;
+  color: rgb(255,255,255);
+  height: 70px;
+  width: 150px;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  margin-top: 25px;
 }

@@ -9,6 +9,8 @@ import { Skill } from './components/Skill'
 import { ViewCourse } from './components/ViewCourse'
 import { Instructor } from './components/Instructor'
 import { Story } from './components/Story'
+import { PrepLeaf } from './components/PrepLeaf'
+import { Footer } from './components/Footer'
 
 function App() {
 
@@ -21,9 +23,11 @@ function App() {
       <Companies/>
       <Placement/>
       <Skill/>
+      <PrepLeaf/>
       {/* <ViewCourse/> */}
       <Instructor/>
       <Story/>
+      <Footer/>
     </div>
   )
 }
