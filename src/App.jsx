@@ -11,6 +11,7 @@ import { Instructor } from './components/Instructor'
 import { Story } from './components/Story'
 import { PrepLeaf } from './components/PrepLeaf'
 import { Footer } from './components/Footer'
+import { Nsdc } from './components/Nsdc'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Placement/>
       <Skill/>
       <PrepLeaf/>
+      <Nsdc/>
       {/* <ViewCourse/> */}
       <Instructor/>
       <Story/>

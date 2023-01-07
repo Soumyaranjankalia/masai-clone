@@ -37,15 +37,13 @@
   }
 }
 
-.navBar{
+.navBar {
   display: flex;
   margin-top: 10px;
   justify-content: space-around;
 }
-/* .nav-img{
 
-} */
-.nav-course{
+.nav-course {
   display: flex;
   width: 700px;
   justify-content: space-around;
@@ -54,16 +52,15 @@
 .nav-course > p {
   font-size: 0.875rem;
   font-family: sans-serif;
-  color: rgb(26,32,44);
+  color: rgb(26, 32, 44);
 }
-.nav-btn{
+.nav-btn {
   display: flex;
   width: 300px;
   justify-content: space-between;
-  
 }
 
-.nav-btn-one{
+.nav-btn-one {
   background-color: red;
   color: white;
   width: 200px;
@@ -71,7 +68,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.nav-btn-two{
+.nav-btn-two {
   background-color: white;
   color: red;
   border: 1px solid red;
@@ -79,33 +76,33 @@
   width: 75px;
   cursor: pointer;
 }
-.heroDiv{
-margin-top: 100px;
+.heroDiv {
+  margin-top: 100px;
 }
 .heroDiv-one > h1 {
   font-size: 50px;
-  font-weight:900;
+  font-weight: 900;
 }
-.heroDiv-two-pOne{
+.heroDiv-two-pOne {
   font-size: 24px;
   line-height: 34px;
   color: rgb(45, 55, 72);
 }
-.heroDiv-two-pTwo{
-font-size: 24px;
-font-weight: bold;
-line-height: 34px;
-color: rgb(23, 25, 35);
-z-index: 1;
-margin-top: -25px;
+.heroDiv-two-pTwo {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  color: rgb(23, 25, 35);
+  z-index: 1;
+  margin-top: -25px;
 }
-.heroDiv-two > img{
-/* position: absolute; */
-z-index: 2;
-width: 220px;
-top: 48px;
-vertical-align: middle;
-margin-top: -40px;
+.heroDiv-two > img {
+  /* position: absolute; */
+  z-index: 2;
+  width: 220px;
+  top: 48px;
+  vertical-align: middle;
+  margin-top: -40px;
 }
 .heroDiv-three > button {
   background-color: red;
@@ -115,16 +112,15 @@ margin-top: -40px;
   border-radius: 8px;
   height: 50px;
   font-weight: bold;
-  font-size:medium;
+  font-size: medium;
   cursor: pointer;
 }
-.student-div{
+.student-div {
   margin-top: 100px;
-  display: flex;
-  overflow:scroll;
 }
 .student-div > img {
   animation: slide infinite 3s alternate;
+  width: 100%;
 }
 
 .heroContentTwo-div > p {
@@ -134,118 +130,114 @@ margin-top: -40px;
   color: rgb(84, 77, 79);
 }
 .heroContentTwo-div > h2 {
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-feature-settings: "kern";
   display: block;
   margin-top: -10px;
   font-size: 34px;
   font-weight: 600;
   line-height: 40px;
-  color: rgb(10,1,3);
+  color: rgb(10, 1, 3);
 }
 
-.companiesDiv-one{
-display: flex;
-gap: 50px;
-overflow: scroll;
-justify-content: space-around;
-background-color: rgb(255,250,251);
+.companiesDiv-one {
+  display: flex;
+  /* gap: 50px; */
+  /* overflow: scroll; */
+  justify-content: space-around;
+  background-color: rgb(255, 250, 251);
 }
-.comapniesDiv-two  {
+.comapniesDiv-two {
   width: 100px;
   height: 100px;
   margin-top: 10px;
   display: flex;
   border-radius: 20px;
-  background-color: rgb(255,255,255);
+  background-color: rgb(255, 255, 255);
 }
 .comapniesDiv-two > img {
   border-radius: 20px;
 }
-.placement-mainDIv{
+.placement-mainDIv {
   display: flex;
   justify-content: space-around;
   margin-top: 100px;
 }
-.placement-mainDiv-first{
+.placement-mainDiv-first {
   margin-top: -30px;
 }
-.firstDiv-one{
-  background-color: rgb(52,112,228);
+.firstDiv-one {
+  background-color: rgb(52, 112, 228);
   width: 600px;
   height: 300px;
   border-radius: 20px;
-  color: rgb(225,225,225);
+  color: rgb(225, 225, 225);
   justify-content: center;
 }
 .firstDiv-one > p {
-  color: rgb(225,225,225);
+  color: rgb(225, 225, 225);
   font-size: 12px;
   font-weight: 700;
   text-align: center;
 }
-.subFirstDiv-one{
+.subFirstDiv-one {
   margin-top: 10px;
-
 }
 .subFirstDiv-one > p > span > img {
   height: 50px;
   left: -30px;
 }
-.subFirstDiv-one > p > span{
-  color: rgb(255,219,102);
+.subFirstDiv-one > p > span {
+  color: rgb(255, 219, 102);
   font-size: 34px;
   font-weight: 700;
   line-height: 40px;
 }
-.subFirstDiv-one > p{
+.subFirstDiv-one > p {
   font-size: 34px;
   font-weight: 700;
   line-height: 5px;
-  
 }
-.placementRate{
+.placementRate {
   height: 16px;
   left: -10px;
-
 }
-.firstDiv-two{
+.firstDiv-two {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 20px;
 }
 
-
-.subFirstDiv-two{
-  background-color: rgb(111,189,205);
+.subFirstDiv-two {
+  background-color: rgb(111, 189, 205);
   justify-content: center;
   text-align: center;
   border-radius: 20px;
-  width: 40%;
+  width: 45%;
   height: 250px;
 }
-.placementSvg{
+.placementSvg {
   width: 70px;
   height: 70px;
   margin-left: 80px;
   margin-top: 20px;
 }
-.placement-salary{
+.placement-salary {
   font-size: 34px;
   font-weight: 600;
   margin-top: 16px;
   line-height: 40px;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
 }
-.subFirstDIv-two-two{
+.subFirstDIv-two-two {
   background-color: rgb(111, 205, 158);
   justify-content: center;
   text-align: center;
   border-radius: 20px;
-  width: 40%;
+  width: 45%;
   height: 250px;
 }
-.placementSvghigh{
+.placementSvghigh {
   width: 70px;
   height: 70px;
   margin-left: 80px;
@@ -255,8 +247,8 @@ background-color: rgb(255,250,251);
   height: 70px;
 }
 
-.placement-mainDiv-second{
-  background-color: rgb(110,113,204);
+.placement-mainDiv-second {
+  background-color: rgb(110, 113, 204);
   border-radius: 20px;
 }
 .secondDiv-one > img {
@@ -267,19 +259,19 @@ background-color: rgb(255,250,251);
 
 .secondDiv-two > h2 {
   font-weight: bold;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   font-size: 34px;
 }
 .secondDiv-two > button {
-  background-color: rgb(110,113,204);
-  color: rgb(255,255,255);
+  background-color: rgb(110, 113, 204);
+  color: rgb(255, 255, 255);
   border: 1px solid white;
   font-size: large;
   border-radius: 10px;
   width: 150px;
   height: 50px;
 }
-.skill{
+.skill {
   margin-top: 100px;
 }
 .skill > h2 {
@@ -292,24 +284,24 @@ background-color: rgb(255,250,251);
   font-weight: 500;
 }
 
-.viewCourse-mainDiv{
+.viewCourse-mainDiv {
   display: flex;
   justify-content: space-around;
   border: 1px solid black;
 }
-.viewCourse-divOne{
-border: 1px solid red;
+.viewCourse-divOne {
+  border: 1px solid red;
 }
 
-.oneSubDivOne-one{
-  background-color: rgb(110,113,204);
+.oneSubDivOne-one {
+  background-color: rgb(110, 113, 204);
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   width: 100%;
   height: 8rem;
 }
 
-.viewCourse-divTwo{
+.viewCourse-divTwo {
   border: 1px solid green;
 }
 
@@ -323,7 +315,7 @@ border: 1px solid red;
   font-weight: 500;
 }
 
-.instruction-DivTwo{
+.instruction-DivTwo {
   margin-top: 70px;
   display: flex;
   flex-wrap: wrap;
@@ -331,24 +323,24 @@ border: 1px solid red;
   margin-left: 30px;
   gap: 30px;
 }
-.profile{
-width: 300px;
-border-radius: 20px;
+.profile {
+  width: 300px;
+  border-radius: 20px;
 }
-.company{
+.company {
   width: 100px;
 }
 
-.instruction-DivTwo-one{
+.instruction-DivTwo-one {
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .instructor-MainDiv > button {
   background-color: #c53030;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   margin-top: 50px;
-  font-weight:900;
+  font-weight: 900;
   font-size: large;
   border: none;
   height: 50px;
@@ -357,19 +349,19 @@ border-radius: 20px;
   cursor: pointer;
 }
 
-.story-DivOne{
+.story-DivOne {
   margin-top: 90px;
   font-size: 30px;
   font-weight: bolder;
 }
 
-.storyDiv-tow{
+.storyDiv-tow {
   margin-top: 70px;
   display: flex;
   justify-content: space-around;
 }
 
-.storyDIvTwo-two{
+.storyDIvTwo-two {
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   gap: 30px;
 }
@@ -379,14 +371,14 @@ border-radius: 20px;
   margin-right: 10px;
 }
 
-.pref{
+.pref {
   margin-top: 50px;
   text-align: center;
-  background-color: rgb(255,249,229);
+  background-color: rgb(255, 249, 229);
   justify-content: center;
 }
 .pref > button {
-  background-color:  rgb(255,249,229);
+  background-color: rgb(255, 249, 229);
   color: red;
   border: 1px solid red;
   height: 40px;
@@ -403,26 +395,25 @@ border-radius: 20px;
   font-size: large;
 }
 
-.prefTwoP{
-  color: rgb(110,113,204);
+.prefTwoP {
+  color: rgb(110, 113, 204);
 }
 
-.prefThreeP{
+.prefThreeP {
   margin-bottom: 10px;
 }
 
-.footer{
+.footer {
   margin-top: 80px;
   background-color: black;
-  
 }
-.discord{
+.discord {
   color: white;
   display: flex;
   text-align: center;
   margin-left: 30%;
 }
-#logo{
+#logo {
   text-align: left;
   display: flex;
   justify-content: space-between;
@@ -430,35 +421,34 @@ border-radius: 20px;
 
 .logoDiv-two > p {
   color: rgb(255, 255, 255);
-  
 }
-.logoDiv-two{
+.logoDiv-two {
   margin-right: -900px;
 }
-.logoDiv-three{
-display: flex;
-width: 250px;
-justify-content: space-around;
-margin-top: 15px;
+.logoDiv-three {
+  display: flex;
+  width: 250px;
+  justify-content: space-around;
+  margin-top: 15px;
 }
-.footerDIv-one>button{
+.footerDIv-one > button {
   width: 200px;
   font-weight: 600;
   font-size: 14px;
-  color:rgb(21,101,246);
+  color: rgb(21, 101, 246);
   background-color: transparent;
   border: none;
 }
-.links{
+.links {
   display: flex;
   color: white;
   margin-left: 108px;
   gap: 162px;
 }
 
-.footerDIv-one{
+.footerDIv-one {
   display: flex;
-  background-color: rgb(38,36,36);
+  background-color: rgb(38, 36, 36);
   cursor: pointer;
   align-items: center;
   margin-left: 50px;
@@ -466,27 +456,72 @@ margin-top: 15px;
   width: 250px;
 }
 
-.footerDiv-last{
+.footerDiv-last {
   display: flex;
   width: 400px;
   height: 150px;
   gap: 20px;
 }
-.footerDiv-pOne{
-  font-size:1.5rem;
+.footerDiv-pOne {
+  font-size: 1.5rem;
   font-weight: bolder;
 }
-.footerDiv-pTwo{
-  color: rgb(255,219,102);
+.footerDiv-pTwo {
+  color: rgb(255, 219, 102);
   font-weight: bold;
   margin-top: -10px;
 }
-.btn{
+.btn {
   background-color: red;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   height: 70px;
   width: 150px;
   font-size: 0.9rem;
   border-radius: 10px;
   margin-top: 25px;
+}
+
+.nsdc {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.nsdc-one {
+  width: 45%;
+  border-radius: 15px;
+}
+.nsdc-pOne {
+  font-size: 2.1rem;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 50px;
+}
+.nsdc-pTwo {
+  text-align: left;
+  margin-left: 50px;
+}
+.nsdc-two {
+  width: 45%;
+  border-radius: 15px;
+}
+.nsdc-two-one {
+  height: 100%;
+  border-radius: 15px;
+}
+.nsdc-two-one > iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.nsdc-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  font-family: sans-serif;
 }
