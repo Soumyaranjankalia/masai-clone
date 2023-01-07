@@ -4,7 +4,7 @@ import './App.css'
 import { NavBar } from './components/NavBar'
 import { HeroContent } from './components/HeroContent'
 import { Students } from './components/Students'
-
+import { HeroContentTwo } from './components/HeroContentTwo'
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
       <NavBar/>
       <HeroContent/>
       <Students/>
+      <HeroContentTwo/>
     </div>
   )
 }
