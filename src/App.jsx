@@ -5,6 +5,7 @@ import { NavBar } from './components/NavBar'
 import { HeroContent } from './components/HeroContent'
 import { Students } from './components/Students'
 import { HeroContentTwo } from './components/HeroContentTwo'
+import { Companies } from './components/Companies'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <HeroContent/>
       <Students/>
       <HeroContentTwo/>
+      <Companies/>
     </div>
   )
 }

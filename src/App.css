@@ -114,7 +114,6 @@ margin-top: -40px;
 }
 .student-div{
   margin-top: 100px;
-  border: 1px solid red;
   display: flex;
   overflow:scroll;
   -webkit-animation-name: move;
@@ -145,4 +144,23 @@ margin-top: -40px;
   font-weight: 600;
   line-height: 40px;
   color: rgb(10,1,3);
+}
+
+.companiesDiv-one{
+display: flex;
+gap: 50px;
+overflow: scroll;
+justify-content: space-around;
+background-color: rgb(255,250,251);
+}
+.comapniesDiv-two  {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  display: flex;
+  border-radius: 20px;
+  background-color: rgb(255,255,255);
+}
+.comapniesDiv-two > img {
+  border-radius: 20px;
 }
