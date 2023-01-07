@@ -8,6 +8,7 @@ import { Placement } from './components/Placement'
 import { Skill } from './components/Skill'
 import { ViewCourse } from './components/ViewCourse'
 import { Instructor } from './components/Instructor'
+import { Story } from './components/Story'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Skill/>
       {/* <ViewCourse/> */}
       <Instructor/>
+      <Story/>
     </div>
   )
 }

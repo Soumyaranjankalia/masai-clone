@@ -357,3 +357,25 @@ border-radius: 20px;
   width: 150px;
   border-radius: 10px;
 }
+
+.story-DivOne{
+  margin-top: 90px;
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+.storyDiv-tow{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.storyDIvTwo-two{
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  gap: 30px;
+}
+.storyDIvTwo-two > p {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
