@@ -293,3 +293,67 @@ background-color: rgb(255,250,251);
   margin-top: -10px;
   font-weight: 500;
 }
+
+.viewCourse-mainDiv{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+.viewCourse-divOne{
+border: 1px solid red;
+}
+
+.oneSubDivOne-one{
+  background-color: rgb(110,113,204);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: 100%;
+  height: 8rem;
+}
+
+.viewCourse-divTwo{
+  border: 1px solid green;
+}
+
+.instruction-DivOne > h2 {
+  font-size: 45px;
+  font-weight: bolder;
+}
+.instruction-DivOne > p {
+  font-size: large;
+  margin-top: -10px;
+  font-weight: 500;
+}
+
+.instruction-DivTwo{
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  margin-left: 30px;
+  gap: 30px;
+}
+.profile{
+width: 300px;
+border-radius: 20px;
+}
+.company{
+  width: 100px;
+}
+
+.instruction-DivTwo-one{
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.instructor-MainDiv > button {
+  background-color: #c53030;
+  color: rgb(255,255,255);
+  margin-top: 50px;
+  font-weight:900;
+  font-size: large;
+  border: none;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+}

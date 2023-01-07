@@ -6,6 +6,8 @@ import { HeroContentTwo } from './components/HeroContentTwo'
 import { Companies } from './components/Companies'
 import { Placement } from './components/Placement'
 import { Skill } from './components/Skill'
+import { ViewCourse } from './components/ViewCourse'
+import { Instructor } from './components/Instructor'
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       <Companies/>
       <Placement/>
       <Skill/>
+      {/* <ViewCourse/> */}
+      <Instructor/>
     </div>
   )
 }
