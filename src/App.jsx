@@ -12,6 +12,7 @@ import { Story } from './components/Story'
 import { PrepLeaf } from './components/PrepLeaf'
 import { Footer } from './components/Footer'
 import { Nsdc } from './components/Nsdc'
+import { Partner } from './components/Partner'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       {/* <ViewCourse/> */}
       <Instructor/>
       <Story/>
+      <Partner/>
       <Footer/>
     </div>
   )
